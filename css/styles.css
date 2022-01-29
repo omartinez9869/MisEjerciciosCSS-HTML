@@ -1,31 +1,32 @@
 
 body{
-	background: white ;
-	font-family: 'Open Sans', sans-serif;
+	background: #f2f2f2;
+	font-family: 'Roboto', sans-serif;
 	
 }
 
 .navbar-brand h1 { /* Nombre de la empresa */
-	font-family: 'Lato', sans-serif;
-	color:  #783F04;
+	font-family: 'Roboto', sans-serif;
+	color:  #fe0000;
 	font-size: 1.5em;
 	text-transform: uppercase;
 	font-weight: bold;
 	text-shadow: 1px 1px 1px #222;
-	margin-top: 0;
+	margin-top: 10px;
 	margin-bottom: 0;
 	line-height: .75;
 }
 .navbar-brand h4 {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	color: #DE8628;
 	font-size: .9 em;
 	text-transform: uppercase;
 }
 #header-nav{
-	background: #ffff;
-	border-radius: 2px;
-	/*border-bottom: 0px solid #3EDE57;*/
+	background: f2f2f2;/*#292E25*/;
+	border-radius: 0px;
+	border-bottom: 0px solid #3EDE57;
+	vertical-align: middle;
 }
 #logo-img {
 	background: url("../images/ArrowMachinelogo1.png") no-repeat;
@@ -60,13 +61,13 @@ font-size: .7em;
 vertical-align: middle;
 }
 #nav-list a{
-	color: #DE8628;
+	color: #fe0000;
 	text-align: center;
 
 }
 #nav-list a:hover {
-	background:  #783f04;
-	color: white;
+	background:  black;
+	color: fe0000;
 }
 #nav-list a span {
 	font-size: 1.8em;
@@ -79,7 +80,7 @@ vertical-align: middle;
 	padding-bottom: 0;
 }
 #phone div span: ;{ /* Call Us Text */
-	font-family: 'Lato', sans-serif;;
+	font-family: 'Roboto', sans-serif;
 }
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
 	border:  1px solid #783f04;
@@ -88,9 +89,132 @@ vertical-align: middle;
 	clear: both;
 	margin-top: -30px;
 }
+/*Fin del encabezado*/
+/* Home Page Area */
+.container .jumbotron
+{
+	float: left;
+	box-shadow: 0 0 10px grey;
+	border: 2px solid grey;
+}
+/* Welcome Text */
+#welcome-text 
+{
+	text-align: justify;
+	align-content: center;
+	width: 80%;
+}
+#company-name
+{
+	font-family: 'Roboto', sans-serif;
+	color:  #fe0000;
+	text-shadow: 1px 1px 1px #222;
+	text-transform: uppercase;
+}
+#welcome-text p
+{
+	font-size: 1.5em;
+	font-family: 'Work Sans', sans-serif;
+	
+}
+.bolder
+{
+	font-weight: bold;
+	
+	text-shadow: 1px 1px 1px #000;
+}
+#menu-header
+{
+	text-align: center;
+	color: white;
+	background: black;
+	opacity: .7;
+	height: 1.6 em;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	line-height: .75;
+}
+#mach-serv-title, #surf-mat-title, #materials-title
+{
+	height: 250px;
+	width: 100%;
+	margin-top: 15px;
+	position: relative;
+	border: 0px solid #E02C32;
+	overflow: hidden;
+}
+#mach-serv-title:hover, #surf-mat-title:hover, #materials-title:hover
+{
+	box-shadow: 0 1px 5px 1px #EB8B4C;
+}
+#mach-serv-title
+{
+	background: url("../images/mach-service-250x376.jpg") no-repeat;
+	background-position: center;
+} 
+#surf-mat-title
+{
+	background: url("../images/surface-250x419.jpg") no-repeat;
+	background-position: center;
+}
+#materials-title
+{
+	background: url("../images/materials-313x250.jpg") no-repeat;
+	background-position: center;
+}
+#mach-serv-title span, #surf-mat-title span, #materials-title span
+{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.6em;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #fff;
+	opacity: .7;
+
+}
+
+/** FOOTER **/
+.panel-footer
+{
+	margin-top: 30px;
+	padding-top: 35px;
+	padding-bottom: 30px;
+	background-color: black;
+	border-top: 0;
+	color: white;
+}
+.panel-footer div.row 
+{
+	margin-bottom: 35px;
+}
+#col-footer1, #col-footer2 #col-footer3
+{
+	line-height: 2;
+}
+#col-footer1 > span, #col-footer2 > span, #col-footer3 > span
+{
+	font-size: 1.5em;
+	font-family: 'Roboto', sans-serif;
+	color:  #fe0000;
+}
+
+/*---- Fin Home Page Area ---*/
 /*---------Section for work with different kind of devices -------*/
 /* ------ Large Devices Only ----- */
+
 @media (min-width: 1200px){
+	.container .jumbotron
+	{
+		background: url("../images/jumbotron1200.jpg") no-repeat;
+		height: 270px;
+		width: 1200px;
+		
+		
+	}
 
 }
 /*----- Medium Devices Only -----*/
@@ -103,10 +227,26 @@ vertical-align: middle;
 		width: 100px;
 		margin: 0px 0px 0px 0px;
 	}
+	.container .jumbotron
+	{
+		background: url("../images/jumbotron991.jpg") no-repeat;
+		height: 223px;
+		width: 991px;
+				
+	}
+
+
 }
 /* ----- Small Devices Only -----*/
 @media (min-width: 768px) and (max-width: 991.5px){
 
+.container .jumbotron
+	{
+		background: url("../images/jumbotron750.jpg") no-repeat;
+		height: 223px;
+		width: 991px;
+				
+	}
 }
 /* ----- Extra Small Devices Only ----- */
 @media (max-width: 767.5px)
@@ -144,5 +284,36 @@ vertical-align: middle;
 	{
 		font-size: 1em;
 		margin-right: 5px;
+	}
+	.container .jumbotron 
+	{
+	
+		margin-top: 30px;
+		padding: 0;
+		
+	}
+	/* End header */
+/** ++++++++++++++++++++++++++**/
+/* Begin of body content ******/
+#mach-serv-title, #surf-mat-title, #materials-title
+{
+	width: 313px;
+	margin: 0 auto 15px;
+}
+
+}
+
+/** For only very small devices like iphone 4 **/
+@media(max-width: 479)
+{
+	.navbar-header h1
+	{
+		padding-top: 5px;
+		font-size: 6vw;
+	}
+	#mach-serv-title, #surf-mat-title, #materials-title
+	{
+		width: 280px;
+		margin: 0 auto 15px;
 	}
 }

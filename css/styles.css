@@ -1,138 +1,187 @@
 
-body{
-	background: #f2f2f2;
-	font-family: 'Roboto', sans-serif;
+body
+{
+	background-color: #ffffff;
+	color: #1c1c1c;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 16px;
 	
 }
 
-.navbar-brand h1 { /* Nombre de la empresa */
-	font-family: 'Roboto', sans-serif;
-	color:  #fe0000;
-	font-size: 1.5em;
-	text-transform: uppercase;
-	font-weight: bold;
-	text-shadow: 1px 1px 1px #222;
-	margin-top: 10px;
-	margin-bottom: 0;
-	line-height: .75;
+#header-nav
+{
+	background: #1c1c1c; 
+	border-radius: 0;
+	border: 0;
+	
 }
-.navbar-brand h4 {
-	font-family: 'Roboto', sans-serif;
-	color: #DE8628;
-	font-size: .9 em;
-	text-transform: uppercase;
-}
-#header-nav{
-	background: f2f2f2;/*#292E25*/;
-	border-radius: 0px;
-	border-bottom: 0px solid #3EDE57;
-	vertical-align: middle;
-}
-#logo-img {
+#logo-img 
+{
 	background: url("../images/ArrowMachinelogo1.png") no-repeat;
 	height: 91px;
 	width: 150px;
 	margin: 0px 0px 0px 0px;
 	padding-top: 5px;
 }
-#logo-cert
+
+.navbar-brand
 {
-	padding-top: 0px;	
-}
+	padding-top: 25px;
 
 }
-.navbar-brand{
-	padding-top: 15px;
-
-}
-.navbar-brand a {
-	text-decoration: none;
-}
-/*.navbar-brand a:hover, .navbar-brand a:focus {
-	por el momento lo vamos a pausar dado que estamos dando la misma configuración a toda la etiqueta "a"
-	text-decoration: none;
-}*/
-.navbar-brand p {/*ISO Cert*/
-color: #000;
-text-transform: uppercase;
-font-size: .7em;
-}
-.navbar-brand p span {/*Logo ISO*/
-vertical-align: middle;
-}
-#nav-list a{
+.navbar-brand h1 
+{ /* Nombre de la empresa */
+	font-family: 'Haettenschweiler', arial;
 	color: #fe0000;
-	text-align: center;
-
+	font-size: 1.9em;
+	text-transform: uppercase;
+	text-shadow: 0px 0px 0px #222;
+	margin-top: 10px;
+	margin-bottom: 0;
+	line-height: .75;
 }
-#nav-list a:hover {
+.navbar-brand a 
+{
+	text-decoration: none;
+}
+
+.navbar-brand p 
+{/*ISO Cert*/
+	color: #000;
+	text-transform: uppercase;
+	font-size: .7em;
+}
+.navbar-brand p span 
+{/*Logo ISO*/
+	vertical-align: middle;
+}
+.navbar-brand h4 
+{
+	font-family: 'Haettenschweiler', arial;
+	color: #DE8628;
+	font-size: .9 em;
+	text-transform: uppercase;
+}
+
+
+#nav-list a
+{
+	color: white;
+	/*color: #fe0000;*/
+	text-align: center;
+}
+#nav-list a:hover 
+{
 	background:  black;
 	color: fe0000;
 }
-#nav-list a span {
+#nav-list a span 
+{
 	font-size: 1.8em;
 }
-#phone{
+#phone
+{
 	margin-top: 5px;
 }
-#phone a span { /* Phone number */
+#phone a span 
+{ /* Phone number */
 	text-align: right;
 	padding-bottom: 0;
 }
-#phone div span: ;{ /* Call Us Text */
-	font-family: 'Roboto', sans-serif;
+#phone div span
+{ /* Call Us Text */
+	font-family: 'Haettenschweiler', arial;
 }
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+.navbar-header button .navbar-toggle, .navbar-header .icon-bar 
+{
 	border:  1px solid #783f04;
 }
-.navbar-header button.navbar-toggle {
+.navbar-header button.navbar-toggle 
+{
 	clear: both;
 	margin-top: -30px;
 }
 /*Fin del encabezado*/
 /* Home Page Area */
+#main-content
+{
+	padding: 5px;
+	margin-left: 15px;
+	margin-right: 2px;
+}
 .container .jumbotron
 {
-	float: left;
-	box-shadow: 0 0 10px grey;
-	border: 2px solid grey;
+	
+	box-shadow: 0 0 0px grey;
+	border: 0px solid grey;
+	overflow: hidden;
+	padding-top: 15px;
+	padding-left: 0px;
 }
 /* Welcome Text */
 #welcome-text 
 {
 	text-align: justify;
 	align-content: center;
-	width: 80%;
+	width: 100%;
+	min-height: 320px;
+	padding-top: 10px;
+	padding-left: 10px;
+	
+
+}
+#quality-content
+{
+	text-align: justify;
+	padding-left: 0px;
+	margin: 0 0 0 0;
+	padding-top: 10px;
+	padding-right: 2px;
+	padding-left: 2px;
+	font-size: 1.5em;
+	min-height: 300;
 }
 #company-name
 {
-	font-family: 'Roboto', sans-serif;
-	color:  #fe0000;
-	text-shadow: 1px 1px 1px #222;
+	font-family: 'Haettenschweiler', arial;
+	color:  #fe2000;
+	text-shadow: 0px 0px 0px #222;
 	text-transform: uppercase;
 }
 #welcome-text p
 {
 	font-size: 1.5em;
-	font-family: 'Work Sans', sans-serif;
+
 	
 }
 .bolder
 {
 	font-weight: bold;
 	
-	text-shadow: 1px 1px 1px #000;
+	/*text-shadow: 1px 1px 1px #000;*/
+}
+.header-section
+{
+	font-family: 'Haettenschweiler', arial;
+	color:  #fe2000;
+	text-transform: uppercase;
+	text-align: center;
+	align-content: center;
 }
 #menu-header
 {
 	text-align: center;
-	color: white;
-	background: black;
-	opacity: .7;
-	height: 1.6 em;
-	padding: 0;
-	font-family: 'Roboto', sans-serif;
-	line-height: .75;
+	color: #fe2000;
+	background: white;
+	padding: 10px;
+	font-family: 'Haettenschweiler', arial;
+	font-size: 1.8 em;
+	border-bottom: 1px solid #1c1c1c;
+
+}
+#menu-header h2
+{
+	line-height: 1%;
 }
 #mach-serv-title, #surf-mat-title, #materials-title
 {
@@ -154,12 +203,12 @@ vertical-align: middle;
 } 
 #surf-mat-title
 {
-	background: url("../images/surface-250x419.jpg") no-repeat;
+	background: url("../images/MoriSeikiCNCMILL375x250.jpg") no-repeat;
 	background-position: center;
 }
 #materials-title
 {
-	background: url("../images/materials-313x250.jpg") no-repeat;
+	
 	background-position: center;
 }
 #mach-serv-title span, #surf-mat-title span, #materials-title span
@@ -177,6 +226,17 @@ vertical-align: middle;
 
 }
 
+#image-welcome 
+{
+	
+	position: absolute;
+}
+#image-quality, #image-quality2
+{
+	padding: 0;
+	margin: 0;
+	background-position: center;
+}
 /** FOOTER **/
 .panel-footer
 {
@@ -206,15 +266,51 @@ vertical-align: middle;
 /*---------Section for work with different kind of devices -------*/
 /* ------ Large Devices Only ----- */
 
-@media (min-width: 1200px){
+@media (min-width: 1200px)
+{
+
+#main-content
+{
+	
+	width: 1170px;
+}
 	.container .jumbotron
 	{
-		background: url("../images/jumbotron1200.jpg") no-repeat;
-		height: 270px;
-		width: 1200px;
+		background: url("../images/NLX-2500-2048x1536-1175x500.jpg") no-repeat;
+		height: 500px;
+		width: 1175px;
 		
 		
 	}
+
+	#image-welcome
+	{
+		background: url("../images/Products-347-451.jpg") no-repeat;
+		background-position: right;
+		height:300px ;
+		width: 100%;
+		overflow: hidden;
+		
+	}
+	#image-quality
+	{
+		background: url("../images/LogosIso580x293.png") no-repeat;
+		background-position: left;
+		height:350px ;
+		width: 100%;
+		overflow: hidden;
+
+	}
+	#image-quality2
+	{
+		background: url("../images/AS9100D-Certified300x300.png") no-repeat;
+		background-position: right;
+		height:350px ;
+		width: 100%;
+		overflow: hidden;
+
+	}
+
 
 }
 /*----- Medium Devices Only -----*/
@@ -229,27 +325,64 @@ vertical-align: middle;
 	}
 	.container .jumbotron
 	{
-		background: url("../images/jumbotron991.jpg") no-repeat;
-		height: 223px;
+		background: url("../images/NLX-2500-2048x1536-991x422.jpg") no-repeat;
+		height: 422px;
 		width: 991px;
 				
+	}
+	#image-welcome
+	{
+		background: url("../images/Products-347-451.jpg") no-repeat;
+		height:300px ;
+		width: 100%;
+		overflow: hidden;
+		background-position: center;
+	}
+	#image-quality
+	{
+		background: url("../images/LogosIso400x202.png") no-repeat;
+		background-position: left;
+		height:300px ;
+		width: 100%;
+		overflow: hidden;
+	}
+	#image-quality2
+	{
+		background: url("../images/AS9100D-Certified150x150.png") no-repeat;
+		background-position: right;
+		height:300px ;
+		width: 100%;
+		overflow: hidden;
 	}
 
 
 }
 /* ----- Small Devices Only -----*/
-@media (min-width: 768px) and (max-width: 991.5px){
+@media (min-width: 768px) and (max-width: 991.5px)
+{
 
-.container .jumbotron
+
+	#image-welcome
 	{
-		background: url("../images/jumbotron750.jpg") no-repeat;
-		height: 223px;
-		width: 991px;
-				
+		background: url("../images/Products-347-451.jpg") no-repeat;
+		height:300px ;
+		width: 100%;
+		overflow: hidden;
+		background-position: center;
+		padding-left: 10px;
 	}
+	#image-quality
+	{
+		background: url("../images/LogosI350x177.png") no-repeat;
+		background-position: left;
+		height:300px ;
+		width: 100%;
+		overflow: hidden;
+	}
+	
 }
 /* ----- Extra Small Devices Only ----- */
-@media (max-width: 767.5px)
+@media (min-width: 480px) and (max-width: 767.5px) 
 {
 	/*Header*/
 	.navbar-brand
@@ -292,25 +425,48 @@ vertical-align: middle;
 		padding: 0;
 		
 	}
+
 	/* End header */
 /** ++++++++++++++++++++++++++**/
 /* Begin of body content ******/
-#mach-serv-title, #surf-mat-title, #materials-title
-{
-	width: 313px;
-	margin: 0 auto 15px;
-}
+	#mach-serv-title, #surf-mat-title, #materials-title
+	{
+		width: 313px;
+		margin: 0 auto 15px;
+	}
+	
+	#image-quality
+	{
+		background: url("../images/LogosI480x242.png") no-repeat;
+		background-position: left;
+		height:300px ;
+		width: 100%;
+		overflow: hidden;
+	}
+
 
 }
 
 /** For only very small devices like iphone 4 **/
-@media(max-width: 479)
+@media(max-width: 479px)
 {
+	.navbar-brand
+	{
+		padding-top: 10px;
+		height: 80px;
+	}
 	.navbar-header h1
 	{
 		padding-top: 5px;
 		font-size: 6vw;
 	}
+	/*Company Name*/
+	.navbar-brand a h1 
+	{
+		padding-top: 10px;
+		font-size: 5vw;	/* 1vw = 1% of viewport width */
+	}
+	
 	#mach-serv-title, #surf-mat-title, #materials-title
 	{
 		width: 280px;

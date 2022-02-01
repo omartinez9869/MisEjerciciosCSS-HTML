@@ -148,7 +148,7 @@ body
 	text-shadow: 0px 0px 0px #222;
 	text-transform: uppercase;
 }
-#welcome-text p
+#welcome-text p, #customer-content p
 {
 	font-size: 1.5em;
 
@@ -172,7 +172,7 @@ body
 {
 	text-align: center;
 	color: #fe2000;
-	background: white;
+	background: #1c1c1c;
 	padding: 10px;
 	font-family: 'Haettenschweiler', arial;
 	font-size: 1.8 em;
@@ -183,6 +183,25 @@ body
 {
 	line-height: 1%;
 }
+
+#image-customer, #image-customer2
+{
+	height: 300px;
+	width: 100%;
+	margin-top: 10px;
+	overflow: hidden;
+}
+#image-customer
+{
+	background: url("../images/ArrowMachinelogo1.png") no-repeat;
+	background-position: center;
+}
+#image-customer2
+{
+	background: url("../images/ArrowMachinelogo1.png") no-repeat;
+	background-position: center;
+}
+
 #mach-serv-title, #surf-mat-title, #materials-title
 {
 	height: 250px;
